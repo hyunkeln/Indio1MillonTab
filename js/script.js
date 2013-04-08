@@ -10,7 +10,6 @@
 
 // On your marks, get set...
 $(document).ready(function(){
-						
 	// Cache the Window object
 	$window = $(window);
 	
@@ -20,7 +19,7 @@ $(document).ready(function(){
 		$(this).data('Xposition', $(this).attr('data-Xposition'));
 		$(this).data('speed', $(this).attr('data-speed'));
 	});
-	
+		
 	// For each element that has a data-type attribute
 	$('section[data-type="background"]').each(function(){
 	

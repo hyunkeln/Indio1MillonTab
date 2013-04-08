@@ -36,21 +36,11 @@
 		},
 		end_video : function()
 		{
-			 $('#video .player').slideUp('slow',function(){
-				$('#video .calltoaction').fadeIn('slow',function(){
-					$('#myytplayer').remove();	
-					
-					$('#video .calltoaction').bind('click', function() {
-					  	$(this).slideUp('slow',function(){
-							etiquetas.add_player();		
-						});	
-					});
-				});	
-			});
+			  $("html, body").animate({ scrollTop: $(document).height() }, "slow");
 				
 		}
- 	}
- 	//etiquetas.add_player();		
+ 	} 
+ 	etiquetas.add_player();		
  	
 }(jQuery));
 

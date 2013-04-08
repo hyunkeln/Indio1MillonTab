@@ -23,31 +23,40 @@
 	<section id="first" class="story" data-speed="1" data-type="background">    	
 		<div class="celebramosIndio" data-type="sprite" data-offsetY="14" data-Xposition="50%" data-speed="1.9"></div>		
 		<article> 
-			<div class="celebramosText" data-type="sprite" data-offsetY="60" data-Xposition="63%" data-speed="3.9"></div>
+			<div class="celebramosText " data-type="sprite" data-offsetY="60" data-Xposition="63%" data-speed="3.9"></div>
 			<div class="millionText" data-type="sprite" data-offsetY="207" data-Xposition="69%" data-speed="2.9"></div>
 			<div class="faltasText" data-type="sprite" data-offsetY="441" data-Xposition="69%" data-speed="1.9"></div>
+			<div class="clear"></div>
 	    </article>
 	</section>
 
 	<!-- Section #2 / Background Only -->
 	<section id="second" class="story"  data-offsetY="566" data-speed="1" data-type="background">
 		<article>
-			<div id="video">
+			<div class="parallax" style=>
+				<div class="millon parallax-layer">&nbsp;</div>
+				<div class="botella parallax-layer">&nbsp;</div>
+			</div>			
+			<div id="video" class="left">
 				<div class="player"></div>
-			</div>
-			<div class="botella" data-type="sprite" data-offsetY="500" data-Xposition="3%" data-speed="3.9"></div>
+			</div>  
+
+			
+			<div class="clear"></div>	
 		</article>
+		
 	</section>
 	
 	<!-- Section #5 / The End-->
 	<section id="theend" class="story" data-speed="1" data-type="background" data-offsetY="1105">    	
 		<article>
-			<div class="caja1 left caja" data-type="sprite" data-offsetY="-1127" data-Xposition="37%" data-speed="-1"></div>
-			<div class="caja2 left caja" data-type="sprite" data-offsetY="-556" data-Xposition="4%"  data-speed="-2"></div>
-			<div class="caja3 left caja" data-type="sprite" data-offsetY="-204" data-Xposition="80%"  data-speed="-4"></div>
-			<div class="caja4 left caja" data-type="sprite" data-offsetY="-1950" data-Xposition="46%" data-speed="-.5"></div>
-			<div class="caja5 left caja" data-type="sprite" data-offsetY="-103" data-Xposition="12%" data-speed="-3"></div>
-			<div class="caja6 left caja" data-type="sprite" data-offsetY="-759" data-Xposition="83%" data-speed="-1"></div>
+			<div class="caja1 left caja" data-type="sprite" data-offsetY="-827" data-Xposition="37%" data-speed="-1"></div>
+			<div class="caja2 left caja" data-type="sprite" data-offsetY="-326" data-Xposition="-60%"  data-speed="-2"></div>
+			<div class="caja3 left caja" data-type="sprite" data-offsetY="-04" data-Xposition="156%"  data-speed="-4"></div>
+			<div class="caja4 left caja" data-type="sprite" data-offsetY="-1500" data-Xposition="46%" data-speed="-.5"></div>
+			<div class="caja5 left caja" data-type="sprite" data-offsetY="97" data-Xposition="-63%" data-speed="-3"></div> 
+			<div class="caja6 left caja" data-type="sprite" data-offsetY="-400" data-Xposition="141%" data-speed="-1"></div> 
+			
 			<div class="clear"></div>
 		</article>
 		
@@ -59,13 +68,21 @@
 
   <!-- Our Javascript, starting with jQuery -->
   <script src='js/libs/jquery-1.6.1.min.js'></script>
+  <script src='js/libs/jquery.parallax.min.js'></script>
   <script type="text/javascript" src="http://cdn.indio.com.mx/test/player/js/swfobject.js"></script>
   <script src="js/script.js"></script>
-  <script src="js/video.js"></script>
+  <script src="js/video.js?1"></script>
   <!--[if lt IE 7 ]>
     <script src="js/libs/dd_belatedpng.js"></script>
     <script>DD_belatedPNG.fix("img, .png_bg");
   <![endif]-->
+  <script>
+	  	$('.parallax-layer').parallax({
+				mouseport: $(".parallax").parents("article")
+			},
+			{xorigin:1,xparallax:"450px",yorigin:.25,yparallax:"-10px"},
+			{xorigin:0,xparallax:"80px",yorigin:.25,yparallax:"-10px"});
+  </script>
 
 </body>
 </html>
