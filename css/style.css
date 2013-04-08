@@ -14,14 +14,14 @@
 
 article h2 { font-family: 'Lobster Two'; font-size: 60px; margin: 25px 0; line-height: 1em; }
 
-.story { height: 566px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; border-top: 0px solid rgba(255,255,255,0.3); border-bottom: 0px solid rgba(0,0,0,0.4); box-shadow: 0 0 50px rgba(0,0,0,0.8);}
+.story { height: 565px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; border-top: 0px solid rgba(255,255,255,0.3); border-bottom: 0px solid rgba(0,0,0,0.4); box-shadow: 0 0 50px rgba(0,0,0,0.8);}
 
-#first { background: url(../images/truckback.png) 50% 0 no-repeat fixed; }
+#first { background: white url(../images/truckback.png) 50% 0 no-repeat fixed; width: 810px;}
 #second { background: url(../images/boxback.png) 50% 561px no-repeat fixed; }
 #theend { background: url(../images/truckback.png) 50% bottom no-repeat fixed; }
 
 /* Introduction */
-#first .celebramosIndio { background: url(../images/indioback.jpg) 50% 1px no-repeat fixed; min-height: 566px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; opacity: .85;}
+#first .celebramosIndio { background: url(../images/indioback.jpg) 50% 14px no-repeat fixed; min-height: 566px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; opacity: .85;}
 #first .celebramosText {background: url(../images/celebramos.png) 63% 60px no-repeat fixed; min-height: 566px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; opacity: .85;}
 #first .millionText {background: url(../images/million.png) 69% 207px no-repeat fixed; top: -417px; min-height: 566px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; opacity: .85;}
 
