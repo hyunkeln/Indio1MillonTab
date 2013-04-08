@@ -18,7 +18,7 @@ article h2 { font-family: 'Lobster Two'; font-size: 60px; margin: 25px 0; line-h
 
 #first { background: white url(../images/truckback.png) 50% 0 no-repeat fixed; width: 810px;}
 #second { background: url(../images/boxback.png) 50% 561px no-repeat fixed; }
-#theend { background: url(../images/truckback.png) 50% bottom no-repeat fixed; }
+#theend { background: url(../images/truckback.png) 50% 47px no-repeat fixed; }
 
 /* Introduction */
 #first .celebramosIndio { background: url(../images/indioback.jpg) 50% 14px no-repeat fixed; min-height: 566px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; opacity: .85;}
@@ -48,12 +48,7 @@ rgba(150,150,150,0.1); }
  
 /* The End */
 #theend article { width: 806px; top: 0px; margin: auto; text-align: center; height: 500px; overflow: hidden; position: relative;}
-#theend .caja11 { background: url(../images/box.png) 36% -64px no-repeat fixed;  height: 566px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; } 
-#theend .caja12 { background: url(../images/box.png) 4% -10px no-repeat fixed; top:-565px; height: 1067px; padding: 0; margin: 0; width: 100%; position: relative; margin: 0 auto; }
-#theend .caja13 { background: url(../images/box.png) 85% 71px no-repeat fixed; top:-1634px; height: 566px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
-#theend .caja14 { background: url(../images/box.png) 46% 163px no-repeat fixed; top:-2200px; height: 566px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
-#theend .caja15 { background: url(../images/box.png) 12% 247px no-repeat fixed; top:-2765px; height: 566px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
-#theend .caja16 { background: url(../images/box.png) 83% 390px no-repeat fixed; top: -3332px;height: 501px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+
 
 #theend .caja1 { background: url(../images/box.png) 37% -68px no-repeat fixed; }
 #theend .caja2 { background: url(../images/box.png) 4% -26.5px no-repeat fixed; }
